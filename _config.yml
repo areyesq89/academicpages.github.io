@@ -79,12 +79,12 @@ analytics:
 # Site Author
 author:
   name             : "Alejandro Reyes"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Dana-Farber Cancer Institute / Harvard T.H. Chan School of Public Health"
   location         : "Boston, USA"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?user=8QLuIWgAAAAJ"
+  email            : "alejandro.reyes.ds@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -97,14 +97,14 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alejandro-reyes-6814b596"
   orcid            : "http://orcid.org/0000-0001-8717-6612"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "areyesq89"
+  twitter          : "areyesq"
   vine             :
   weibo            :
   xing             :
