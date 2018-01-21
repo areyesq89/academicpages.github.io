@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{amsmath}
+\usepackage[english]{babel}
+
+\usepackage[scale=.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Alejandro} % Your first name
+\familyname{Reyes, PhD} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{\emph{Curriculum Vitae (\today)}}
+%\address{2440 Massachusetts Avenue, Apt \#12}{Cambridge, 02140, USA}
+%\mobile{+49 - 15772345859}
+\email{alejandro.reyes.ds@gmail.com}
+\mobile{+1 - 617 961 2609}
+%\fax{(000) 111 1113}
+%
+\extrainfo{
+  \href{https://twitter.com/areyesq}{Twitter: @areyesq}\\
+  \href{http://orcid.org/0000-0001-8717-6612}{ORCID: 0000-0001-8717-66}\\
+  \href{https://scholar.google.com/citations?user=8QLuIWgAAAAJ}{Google Scholar: 8QLuIWgAAAAJ}\\
+  \href{https://publons.com/a/389744/}{Publons: 389744}
+}
+
+%\email{\date{}}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Birth date: February 12, 1989.}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle % Print the CV title
+\vspace{-1.2cm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Summary}
+My research is focused on developing analysis strategies that enable the translation of large amounts of data into biological knowledge. Broadly, I am interested in (1) understanding processes by which transcript isoforms contribute to cellular phenotypes and disease conditions and (2) integrating multi-omic data to unravel the molecular consequences of mutations in cancer. In order to ensure reproducibility of results and effective dissemination of code, I implement my analyses in documented  workflows, software packages and graphic interphases.
+
+\section{Education}
+
+\cventry{09/11 - 10/15}{Ph.D. in Biology}{\emph{European Molecular Biology Laboratory / University of Heidelberg}}{Heidelberg, Germany}{}{\emph{Summa cum laude.}}
+\cventry{08/07 - 06/11}{B.Sc. in Genomic Sciences}{\emph{Autonomous National University of Mexico}}{Cuernavaca, Mexico}{}{With honours.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+\cventry{11/16 - today}{Postdoctoral Research Fellow}{}{Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health}{Boston, USA}{
+  \begin{itemize}
+    \item Advisor: Prof. Rafael Irizarry.
+    \item My current research is focused on the characterization of molecular phenotypes in cancer through the integration of multi-omic data. I am investigating how DNA methylation alters the three-dimensional structure of the genome and leads to activation of oncogenes. 
+  \end{itemize}
+}
+\cventry{10/15 - 09/16}{Bridging Postdoctoral Fellow}{}{European Molecular Biology Laboratory}{Heidelberg, Germany}{
+  \begin{itemize}
+  \item Advisor: Dr. Wolfgang Huber.
+  \item Analyzed data from the Genotype-Tissue Expression project to study transcript isoform dynamics across human tissues; Published a first author article.
+  \end{itemize}
+}
+\cventry{09/11 - 10/15}{PhD Student}{}{European Molecular Biology Laboratory}{Heidelberg, Germany}{
+  \begin{itemize}
+  \item Advisor: Dr. Wolfgang Huber.
+  \item Developed statistical software to analyze RNA-seq data; Used public datasets to investigate transcript
+isoform dynamics across tissues and species; Engaged in collaborations with
+experimentalist, participated in the design of research questions and experiments, and led the
+computational analysis; Published 9 scientific articles, 6 as first author; Authored 3
+R/Bioconductor packages; Trained PhD students and postdocs during yearly courses and workshops.
+  \end{itemize}
+}
+\cventry{08/10 - 06/11}{Trainee}{}{European Molecular Biology Laboratory}{Heidelberg, Germany}{
+  \begin{itemize}
+  \item Advisor: Dr. Wolfgang Huber.
+  \item Developed statistical methods to identify differences in transcript isoform regulation between different conditions.
+  \end{itemize}
+}
+\cventry{06/10 - 08/10}{Trainee}{}{Weizmann Institute of Science}{Rehovot, Israel}{
+  \begin{itemize}
+  \item Advisor: Prof. Doron Lancet.
+  \item Developed a computational pipeline to identify human genetic variants affecting olfactory receptors; Co-authored a peer-reviewed article.
+  \end{itemize} }
+\cventry{11/09 -- 06/10}{Undergraduate Research Assistant}{}{Autonomous National University of Mexico}{Cuernavaca, Mexico}{
+  \begin{itemize}
+  \item Advisors: Prof. Julio Collado-Vides and Prof. Enrique Morett.
+  \item Evaluated methods to map transcription start sites in \emph{E. coli} using high-throughput sequencing data.
+   \end{itemize}
+}
+
+\section{Honors}
+\begin{itemize}
+\item Mexican National System of Researchers (SNI I). \\
+\end{itemize}
+  
+\section{Scientific publications}
+\vspace{-.1cm}
+\footnotesize{$^{\ast}$ Shared first authorship.} \hspace{.5cm}
+\footnotesize{$^{\dagger}$ Shared last authorship.}
+\vspace{.1cm}
+\begin{itemize}
+\item \textbf{\underline{A Reyes}}$^{\dagger}$ and W Huber$^{\dagger}$. Alternative start and termination sites of transcription drive most transcript isoform differences across human tissues. \textit{Nucleic Acids Research}, 2017. \href{https://doi.org/10.1093/nar/gkx1165}{doi: 10.1093/nar/gkx1165}
+\item M Ruiz-Velasco, ..., \textbf{\underline{A Reyes}}, ..., JB Zaugg. CTCF-mediated chromatin loops between promoter and gene body regulate alternative splicing across individuals. \textit{Cell Systems}, 2017. \href{http://dx.doi.org/10.1016/j.cels.2017.10.018}{doi: 10.1016/j.cels.2017.10.018}
+\item MM Parker, ..., \textbf{\underline{A Reyes}}, ..., PJ Casaldi. RNA sequencing identifies novel non-coding RNA and exon-specific effects associated with cigarette smoking. \textit{BMC Medical Genomics}, 2017. \href{https://doi.org/10.1186/s12920-017-0295-9}{doi: 10.1186/s12920-017-0295-9}
+\item R Scognamiglio, ..., \textbf{\underline{A Reyes}}, ..., A Trumpp. Myc depletion induces a pluripotent dormant state mimicking diapause. \textit{Cell}, 2016. \href{https://doi.org/10.1016/j.cell.2015.12.033}{doi: 10.1016/j.cell.2015.12.033}
+\item P Brennecke$^{\ast}$, \textbf{\underline{A Reyes}}$^{\ast}$, S Pinto$^{\ast}$, K Rattay$^{\ast}$, ..., W Huber$^{\dagger}$, B Kyewski$^{\dagger}$ and LM Steinmetz$^{\dagger}$. Single-cell transcriptome analysis reveals coordinated ectopic gene-expression patterns in medullary thymic epithelial cells. \textit{Nature Immunology}, 2015. \href{https://doi.org/10.1038/ni.3246}{doi: 10.1038/ni.3246}
+\item W Huber, ..., \textbf{\underline{A Reyes}}, ..., M Morgan. Orchestrating high-throughput genomic analysis with Bioconductor. \textit{Nature Methods}, 2015. \href{https://doi.org/10.1038/ni.3246}{doi: 10.1038/ni.3246}
+\item D Klimmeck$^{\ast}$, N Cabezas-Wallscheid$^{\ast}$, \textbf{\underline{A Reyes}}$^{\ast}$, ..., W Huber$^{\dagger}$ and A Trumpp$^{\dagger}$. Transcriptome-wide profiling and posttranscriptional analysis of hematopoietic stem/progenitor cell differentiation toward myeloid commitment. \textit{Stem Cell Reports}, 2014. \href{https://doi.org/10.1016/j.stemcr.2014.08.012}{doi: 10.1016/j.stemcr.2014.08.012}
+\item N Cabezas-Wallscheid$^{\ast}$, D Klimmeck$^{\ast}$, J Hansson$^{\ast}$, DB Lipka$^{\ast}$, \textbf{\underline{A Reyes}}$^{\ast}$, ..., W Huber$^{\dagger}$, MD Milsom$^{\dagger}$, C Plass$^{\dagger}$, J Krijgsveld$^{\dagger}$ and A Trumpp$^{\dagger}$. Identification of regulatory networks in HSCs and their immediate progeny via integrated proteome, transcriptome, and DNA methylome analysis. \textit{Cell Stem Cell}, 2014. \href{https://doi.org/10.1016/j.stem.2014.07.005}{doi: 10.1016/j.stem.2014.07.005}
+\item \textbf{\underline{A Reyes}}, ..., W Huber. Mutated SF3B1 is associated with transcript isoform changes of the genes UQCC and RPL31 both in CLLs and uveal melanomas. \textit{bioRxiv}, 2013. \href{https://doi.org/10.1101/000992}{doi: 10.1101/000992}
+\item \textbf{\underline{A Reyes}}$^{\ast}$, S Anders$^{\ast}$, ..., W Huber. Drift and conservation of differential exon usage across tissues in primate species. \textit{PNAS}, 2013. \href{https://doi.org/10.1073/pnas.1307202110}{doi: 10.1073/pnas.1307202110}
+\item K Zarnack$^{\ast}$, J K\"{o}nig$^{\ast}$, ..., \textbf{\underline{A Reyes}}, ..., NM Luscombe$^{\dagger}$ and J Ule$^{\dagger}$. Direct competition between hnRNP C and U2AF65 protects the transcriptome from the uncontrolled exonization of Alu elements. \textit{Cell}, 2013. \href{https://doi.org/10.1016/j.cell.2012.12.023}{doi: 10.1016/j.cell.2012.12.023}
+\item T Olender, ..., \textbf{\underline{A Reyes}}, ..., D Lancet. Personal receptor repertoires: olfaction as a model. \textit{BMC Genomics}, 2012. \href{https://doi.org/10.1186/1471-2164-13-414}{doi: 10.1186/1471-2164-13-414}
+\item S Anders$^{\ast}$, \textbf{\underline{A Reyes}}$^{\ast}$ and W Huber. Detecting differential usage of exons from RNA-seq data. \textit{Genome Research}, 2012. \href{https://doi.org/10.1101/gr.133744.111}{doi: 10.1101/gr.133744.111}
+\end{itemize}
+\vspace{-.13cm}
+\section{Software development}
+\vspace{-.1cm}
+\begin{itemize}
+\item \href{http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html}{DEXSeq}: Inference of differential exon usage from RNA-seq data. \textit{R/Bioconductor}.
+\item \href{http://bioconductor.org/packages/release/data/experiment/html/pasilla.html}{pasilla}: Package with count data of a pasilla knock-down RNA-seq experiment. \textit{R/Bioconductor}.
+\item \href{http://bioconductor.org/packages/release/data/experiment/html/Single.mTEC.Transcriptomes.html}{Single.mTEC.Transcriptomes}: Transcriptome data and analysis of mouse mTECs. \textit{R/Bioconductor}.
+\end{itemize}
+\vspace{-.2cm}
+\section{Presentations and Posters}
+\vspace{-.1cm}
+\textbf{Invited talks}
+\begin{itemize}
+\item Blue Seminar. European Molecular Biology Laboratory, Heidelberg, Germany, 2017. 
+\item Evolution of Biological Traits. Center for Advanced Studies (LMU), Munich, Germany, 2017.
+\item Seminarios de Investigaci\'on. Universidad del Valle de Atemajac, Queretaro, Mexico, 2017.
+\item Genomeeting. National Institute of Genomic Medicine, Mexico city, Mexico, 2016. 
+\item 15th Annual BCI-McGill Workshop. Bellairs Research Institute, Holetown, Barbados, 2016.
+\item C1omics Workshop. Manchester Cancer Research Centre, Manchester, UK, 2015.
+\item Interpretation of Next Generation Sequencing Data Workshop. Heidelberg University, Heidelberg, Germany, 2015. 
+\item RADIANT General Meeting. Telethon Institute of Genetics and Medicine, Pozzuoli, Italy, 2015.
+\item ``Manejo Inteligente de Datos e Informaci\'on''. Mexican Institute of Transportation, Queretaro, Mexico, 2014.
+\item European Conference on Computational Biology \emph{RADIANT} Workshop. Strasbourg, France, 2014.
+\item Statistical Analysis of RNA-seq Data. Pasteur Institut, Paris, France, 2013.
+\item BioC Conference. Fred Hutchison Cancer Research Center, Seattle, USA, 2013.
+\end{itemize}
+\vspace{.1cm}
+\textbf{Selected talks}
+\begin{itemize}
+\item The Biology of Genomes. Cold Spring Harbor Laboratory, Cold Spring Harbor, USA, 2014. 
+\end{itemize}
+\vspace{.1cm}
+\textbf{Poster presentations}
+\begin{itemize}
+\item Single-cell Genomics Conference. Hubrecht Institute, Utrecht, Netherlands, 2015.
+\item BioC Conference. Fred Hutchison Cancer Research Center, Seattle, USA, 2012.
+\item Cancer Genomics Conference. European Molecular Biology Laboratory, Heidelberg, Germany, 2012.
+\end{itemize}
+
+%------------------------------------------------
+\vspace{-.2cm}
+\section{Teaching}
+\vspace{-.1cm}
+\textbf{Mentor and lecturer}
+\begin{itemize}
+\item Workshop on Transcriptomics, Harvard University. Cambridge, USA, 2017. 
+\item UNAM's II Summer School in Bioinformatics. Juriquilla, Mexico, 2017. 
+\item Replicathon2017: Consistency of Large Pharmacogenomic Studies. Bayam\'on, Puerto Rico, 2017.
+\item Genomeeting Workshop: Analysis of RNA-seq data. Mexico city, Mexico, 2016.
+\item Statistics and Computing in Genome Data Science. Bressanone, Italy, 2015.
+\item Data Analysis for Genome Biology. Bressanone, Italy, 2014.
+\item Computational Statistics for Genome Biology. Bressanone, Italy, 2013.
+\item BioC Conference. Seattle, USA, 2012.
+\end{itemize}
+\vspace{.1cm}
+\textbf{Teaching assistant}
+\begin{itemize}
+\item Introduction to Data Science: BST260. Harvard T.H. Chan School of Public Health, Boston, USA, 2017. 
+\item Advanced topics in Evolutionary Genomics. {\v C}zern\'y  Krumov, Czech Republic, 2013.
+\item Computational Statistics for Genome Biology. Bressanone, Italy, 2012. 
+\item Computational Statistics for Genome Biology. Bressanone, Italy, 2011. 
+\item Introduction to R/Bioinformatics. Autonomous National University of Mexico. Cuernavaca, Mexico, 2010.
+\end{itemize}
+
+%\section{Skills}
+%\cvitem{Programming languages}{R/Bioconductor, python, perl, C, \LaTeX, mySQL}
+%\cvitem{Languages}{Spanish (native), English (advanced), Italian (acquired), German (basic)}
+%\cvitem{Other}{Piano}
+
+%\section{References}
+%\begin{itemize}
+%\item Dr. Wolfgang Huber (whuber@embl.de).
+%Principal Investigator and Senior Scientist at the European Molecular Biology Laboratory.
+%\item Prof. Lars M. Steinmetz (larsms@stanford.edu).
+%Professor of Genetics at Stanford University. Co-Director of the Stanford Genome Technology Center.
+%Principal Investigator, Associate Head of Genome Biology and Senior Scientist at the European Molecular Biology Laboratory.
+%\end{itemize}
+
+\end{document}
