@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Short CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/cv/cv_reyes.pdf).
+Below is a summarized version of my CV. You can download my full CV [here](/files/cv/cv_reyes.pdf).
 
 Education
 ======
@@ -19,13 +19,13 @@ Education
 Work experience
 ======
 
-* 11/16 - today - Postdoctoral Research Fellow, Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health, Boston, USA.
+* 11/16 - today: **Postdoctoral Research Fellow**, Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health, Boston, USA.
   * Advisor: Prof. Rafael Irizarry.
-* 10/15 - 09/16 - Bridging Postdoctoral Fellow, European Molecular Biology Laboratory, Heidelberg, Germany.
+* 10/15 - 09/16: **Bridging Postdoctoral Fellow**, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.
   * Advisor: Dr. Wolfgang Huber.
-* 09/11 - 10/15 - PhD Student, European Molecular Biology Laboratory, Heidelberg, Germany.
+* 09/11 - 10/15: **PhD Student**, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.
   * Advisor: Dr. Wolfgang Huber.
-* 08/10 - 06/11 - Trainee, European Molecular Biology Laboratory, Heidelberg, Germany.
+* 08/10 - 06/11: **Trainee**, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.
   * Advisor: Dr. Wolfgang Huber.
-* 06/10 - 08/10 - Trainee, Weizmann Institute of Science, Rehovot, Israel.
+* 06/10 - 08/10: **Trainee**, Weizmann Institute of Science (EMBL), Rehovot, Israel.
   * Advisor: Prof. Doron Lancet.
