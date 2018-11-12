@@ -20,4 +20,5 @@ List of selected publications:
 * S Anders<sup>\*</sup>, **A Reyes<sup>\*</sup>** and W Huber. Detecting differential usage of exons from RNA-seq data. *Genome Research*, 2012. doi: [10.1101/gr.133744.111](https://doi.org/10.1101/gr.133744.111). 
 
 <sup>*</sup> Denotes co-first authors
+
 <sup>+</sup> Denotes co-corresponding authors
