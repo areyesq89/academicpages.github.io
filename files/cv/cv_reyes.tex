@@ -31,9 +31,16 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{amsmath}
 \usepackage[english]{babel}
+\usepackage{enumitem}
+
 
 \usepackage[scale=.85]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+%\setitemize{label=\textbullet}
+\setitemize{label=\raisebox{.5\height}{\scalebox{0.8}{\textbullet}}}
+\setlength{\itemsep}{0.1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 %----------------------------------------------------------------------------------------
@@ -132,10 +139,12 @@ R/Bioconductor packages; Trained PhD students and postdocs during yearly courses
   
 \section{Scientific publications}
 \vspace{-.1cm}
-\footnotesize{$^{\ast}$ Shared first authorship.} \hspace{.5cm}
+\footnotesize{$^{\ast}$ Contributed equally.} \hspace{.5cm}
 \footnotesize{$^{\dagger}$ Shared last authorship.}
 \vspace{.1cm}
 \begin{itemize}
+\item K Korthauer$^{\ast}$, P Kimes$^{\ast}$, ... , \textbf{\underline{A Reyes}}, ..., SC Hicks. A practical guide to methods controlling false discoveries in computational biology. \textit{biorXiv}, 2018. \href{http://dx.doi.org/10.1101/458786.}{doi: 10.1101/458786.}
+\item P Kimes$^{\ast}$ and \textbf{\underline{A Reyes}}$^{\ast}$. Reproducible and replicable comparisons using SummarizedBenchmark. \textit{Bioinformatics}, 2018. \href{https://doi.org/10.1093/bioinformatics/bty627}{doi: 10.1093/bioinformatics/bty627}
 \item \textbf{\underline{A Reyes}}$^{\dagger}$ and W Huber$^{\dagger}$. Alternative start and termination sites of transcription drive most transcript isoform differences across human tissues. \textit{Nucleic Acids Research}, 2017. \href{https://doi.org/10.1093/nar/gkx1165}{doi: 10.1093/nar/gkx1165}
 \item M Ruiz-Velasco, ..., \textbf{\underline{A Reyes}}, ..., JB Zaugg. CTCF-mediated chromatin loops between promoter and gene body regulate alternative splicing across individuals. \textit{Cell Systems}, 2017. \href{http://dx.doi.org/10.1016/j.cels.2017.10.018}{doi: 10.1016/j.cels.2017.10.018}
 \item MM Parker, ..., \textbf{\underline{A Reyes}}, ..., PJ Casaldi. RNA sequencing identifies novel non-coding RNA and exon-specific effects associated with cigarette smoking. \textit{BMC Medical Genomics}, 2017. \href{https://doi.org/10.1186/s12920-017-0295-9}{doi: 10.1186/s12920-017-0295-9}
@@ -157,6 +166,7 @@ R/Bioconductor packages; Trained PhD students and postdocs during yearly courses
 \item \href{http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html}{DEXSeq}: Inference of differential exon usage from RNA-seq data. \textit{R/Bioconductor}.
 \item \href{http://bioconductor.org/packages/release/data/experiment/html/pasilla.html}{pasilla}: Package with count data of a pasilla knock-down RNA-seq experiment. \textit{R/Bioconductor}.
 \item \href{http://bioconductor.org/packages/release/data/experiment/html/Single.mTEC.Transcriptomes.html}{Single.mTEC.Transcriptomes}: Transcriptome data and analysis of mouse mTECs. \textit{R/Bioconductor}.
+\item \href{http://www.bioconductor.org/packages/release/bioc/html/SummarizedBenchmark.html}{SummarizedBenchmark}: Inference of differential exon usage from RNA-seq data. \textit{R/Bioconductor}.
 \end{itemize}
 \vspace{-.2cm}
 \section{Presentations and Posters}
@@ -193,6 +203,11 @@ R/Bioconductor packages; Trained PhD students and postdocs during yearly courses
 \vspace{-.2cm}
 \section{Teaching}
 \vspace{-.1cm}
+\textbf{Organizer}
+\begin{itemize}
+\item Latin American BioC Developers Workshop. Cuernavaca, Mexico, 2018.
+\end{itemize}
+\vspace{.1cm}
 \textbf{Mentor and lecturer}
 \begin{itemize}
 \item Workshop on Transcriptomics, Harvard University. Cambridge, USA, 2017. 
