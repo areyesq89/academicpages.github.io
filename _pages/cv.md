@@ -14,7 +14,7 @@ Below is a summarized version of my CV. You can download my full CV *[here](/fil
 Education
 ======
 * **[B.Sc. in Genome Sciences](http://www.lcg.unam.mx/about)**, Autonomous National University of Mexico, Cuernavaca, Mexico, 2011
-* **[Ph.D. in Biology](https://www.embl.de/training/eipp/)**, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany, 2015
+* **[Ph.D. in Biology](https://www.embl.de/training/eipp/)**, European Molecular Biology Laboratory (EMBL) and Heidelberg University, Heidelberg, Germany, 2015
 
 Work experience
 ======
