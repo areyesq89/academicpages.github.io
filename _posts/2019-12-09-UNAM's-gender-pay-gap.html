@@ -12,7 +12,6 @@
 
 <meta name="author" content="Alejandro Reyes" />
 
-<meta name="date" content="2019-12-09" />
 
 <title>UNAM’s faculty gender pay gap in the year 2019</title>
 
@@ -365,7 +364,6 @@ summary {
 
 <h1 class="title toc-ignore">UNAM’s faculty gender pay gap in the year 2019</h1>
 <h4 class="author">Alejandro Reyes</h4>
-<h4 class="date">December 09, 2019</h4>
 
 </div>
 
@@ -537,7 +535,7 @@ payPerGenderSumm %&gt;%
 <h1>Women earn 542 MXN more than men with the same contract</h1>
 <p>Then I asked a sligthly different question: <strong>is there a gender pay gap for faculty members who have the same contract?</strong></p>
 <p>To answer this question, I fitted a linear model</p>
-<p><span class="math display">\[y_{i} = \beta_{0} + \beta_{1}^{female}x_{1i} + \sum_{j=2}^{q} {{\beta}_{j}^{contract}x_{ji}} + 
+<p><span class="math display">\[y_{i} = \beta_{0} + \beta_{1}^{female}x_{1i} + \sum_{j=2}^{q} {\beta_{j}^{contract}x_{ji}} + 
 \epsilon_{i}, \]</span></p>
 <p>where <span class="math inline">\(y_{i}\)</span> is the salary of individual <span class="math inline">\(i\)</span> and <span class="math inline">\(q\)</span> is the number of possible contracts. <span class="math inline">\(\beta_{0}\)</span> is the intercept term, which estimates the mean salary for men that have a contract that is arbitrarily selected as base level. <span class="math inline">\(x_{1i}\)</span> is a dummy variable that is equal to <span class="math inline">\(1\)</span> if individual <span class="math inline">\(i\)</span> is a female and is equal to <span class="math inline">\(0\)</span> if individual <span class="math inline">\(i\)</span> is a male. <span class="math inline">\(x_{ji}\)</span> are <span class="math inline">\(q-1\)</span> dummy variables that are equal to 1 if individual <span class="math inline">\(i\)</span> has a contract <span class="math inline">\(j\)</span> and are equal to <span class="math inline">\(0\)</span> if individual <span class="math inline">\(i\)</span> does not have contract <span class="math inline">\(j\)</span>. <span class="math inline">\(\epsilon_{i}\)</span> is the error term that is normally distributed.</p>
 <p>The coefficient of interest in the model is <span class="math inline">\(\beta_{1}^{female}\)</span>, which estimates the difference in salary that women receive compared to men after adjusting for salary differences between different contracts, which are estimated by the <span class="math inline">\({\beta}_{j}^{contract}\)</span> coefficients.</p>
