@@ -22,5 +22,5 @@ Work experience
 
 Education
 ======
-* **[Ph.D. in Biology](https://www.embl.de/training/eipp/)**, European Molecular Biology Laboratory and The University of Heidelberg, Heidelberg, Germany, 2015.
+* **[Ph.D. in Computational Biology](https://www.embl.de/training/eipp/)**, European Molecular Biology Laboratory and The University of Heidelberg, Heidelberg, Germany, 2015.
 * **[B.Sc. in Genome Sciences](http://www.lcg.unam.mx/about)**, Autonomous National University of Mexico, Cuernavaca, Mexico, 2011.
