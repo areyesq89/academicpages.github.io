@@ -10,7 +10,10 @@ author_profile: yes
 For a full list of publications, please visit my **[google scholar profile](https://scholar.google.com/citations?user=8QLuIWgAAAAJ&hl)**.
 
 List of selected publications:
-
+* SE Johnstone<sup>\*</sup>, **A Reyes<sup>\*</sup>**, ..., MJ Aryee<sup>+</sup> and BE Bernstein<sup>+</sup>. Programmatic access to bacterial regulatory networks with regutools. *Cell*, 2020. doi:
+[10.1016/j.cell.2020.07.030](https://doi.org/10.1016/j.cell.2020.07.030).
+* J Chavez<sup>\*</sup>, C Barberena-Jonas<sup>\*</sup>, JE Sotelo-Fonseca<sup>\*</sup>, ..., L Collado-Torres<sup>+</sup> and **A Reyes<sup>+</sup>**. Programmatic access to bacterial regulatory networks with regutools. *Bioinformatics*, 2020. doi:
+[10.1093/bioinformatics/btaa575](https://doi.org/10.1093/bioinformatics/btaa575).
 * P Kimes<sup>+</sup> and **A Reyes<sup>+</sup>**. Reproducible and replicable comparisons using SummarizedBenchmark. *Bioinformatics*, 2018. doi:
 [10.1093/bioinformatics/bty627](https://doi.org/10.1093/bioinformatics/bty627).
 * **A Reyes<sup>+</sup>** and W Huber<sup>+</sup>. Alternative start and termination sites of transcription drive most transcript isoform differences across human tissues. *Nucleic Acids Research*, 2017. doi: [10.1093/nar/gkx1165](https://doi.org/10.1093/nar/gkx1165).
